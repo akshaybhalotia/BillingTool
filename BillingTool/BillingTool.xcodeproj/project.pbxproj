@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		994285DF1B955F2D00847355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 994285DE1B955F2D00847355 /* main.m */; };
+		994285E71B95652700847355 /* BillingHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 994285E61B95652700847355 /* BillingHandler.m */; };
+		994285EA1B95654600847355 /* EntryReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 994285E91B95654600847355 /* EntryReader.m */; };
+		994285ED1B95657000847355 /* TaxCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 994285EC1B95657000847355 /* TaxCalculator.m */; };
+		994285F01B9565F600847355 /* ProductDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 994285EF1B9565F600847355 /* ProductDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		994285D91B955F2D00847355 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 7;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -25,6 +29,15 @@
 /* Begin PBXFileReference section */
 		994285DB1B955F2D00847355 /* BillingTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BillingTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		994285DE1B955F2D00847355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		994285E51B95652700847355 /* BillingHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingHandler.h; sourceTree = "<group>"; };
+		994285E61B95652700847355 /* BillingHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillingHandler.m; sourceTree = "<group>"; };
+		994285E81B95654600847355 /* EntryReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryReader.h; sourceTree = "<group>"; };
+		994285E91B95654600847355 /* EntryReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryReader.m; sourceTree = "<group>"; };
+		994285EB1B95657000847355 /* TaxCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxCalculator.h; sourceTree = "<group>"; };
+		994285EC1B95657000847355 /* TaxCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxCalculator.m; sourceTree = "<group>"; };
+		994285EE1B9565F600847355 /* ProductDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetails.h; sourceTree = "<group>"; };
+		994285EF1B9565F600847355 /* ProductDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetails.m; sourceTree = "<group>"; };
+		994285F31B9587C300847355 /* Exempted.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Exempted.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				994285DE1B955F2D00847355 /* main.m */,
+				994285E51B95652700847355 /* BillingHandler.h */,
+				994285E61B95652700847355 /* BillingHandler.m */,
+				994285E81B95654600847355 /* EntryReader.h */,
+				994285E91B95654600847355 /* EntryReader.m */,
+				994285EB1B95657000847355 /* TaxCalculator.h */,
+				994285EC1B95657000847355 /* TaxCalculator.m */,
+				994285EE1B9565F600847355 /* ProductDetails.h */,
+				994285EF1B9565F600847355 /* ProductDetails.m */,
+				994285F31B9587C300847355 /* Exempted.plist */,
 			);
 			path = BillingTool;
 			sourceTree = "<group>";
@@ -118,7 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994285F01B9565F600847355 /* ProductDetails.m in Sources */,
+				994285ED1B95657000847355 /* TaxCalculator.m in Sources */,
+				994285E71B95652700847355 /* BillingHandler.m in Sources */,
 				994285DF1B955F2D00847355 /* main.m in Sources */,
+				994285EA1B95654600847355 /* EntryReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

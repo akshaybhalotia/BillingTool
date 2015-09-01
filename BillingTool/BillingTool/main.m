@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BillingHandler.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        [BillingHandler initiateBilling];
     }
     return 0;
 }
